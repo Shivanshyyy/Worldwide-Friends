@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  }
+  header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #121212;
+  }
+  header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: #4fc3f7;
+  }
+  .founder-section {
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+  }
+  .founder img {
+    width: 180px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  .founder img:hover {
+    transform: scale(1.05);
+  }
+  .founder h2 {
+    margin-top: 1rem;
+    color: #81d4fa;
+  }
+  .founder p {
+    max-width: 600px;
+    margin: 0.5rem auto;
+    color: #ccc;
+  }
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .member {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  .member:hover {
+    transform: scale(1.05);
+  }
+  .member img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .member h3 {
+    margin: 0.5rem 0;
+    color: #81d4fa;
+  }
+  .flags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+  .flags img {
+    width: 32px;
+    height: 20px;
+    border-radius: 2px;
+  }
+  footer {
+    background-color: #101820;
+    padding: 1rem;
+    text-align: center;
+    color: #bbb;
+  }
+  a {
+    color: #4fc3f7;
+    text-decoration: none;
+  }
+  
