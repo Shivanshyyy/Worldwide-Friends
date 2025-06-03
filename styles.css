@@ -83,4 +83,12 @@ body {
     color: #4fc3f7;
     text-decoration: none;
   }
+.join {
+  background-color: #121212;
+  padding: 2rem;
+  text-align: center;
+  margin: 2rem;
+  border-radius: 12px;
+}
+
   
